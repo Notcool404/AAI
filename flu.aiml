@@ -1,0 +1,50 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>WHAT ARE FLU SYMPTOMS</pattern>
+        <template>
+            Flu symptoms usually include fever, chills, muscle aches, cough, congestion, runny nose, headaches, and fatigue.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I HAVE FEVER AND COUGH</pattern>
+        <template>
+            These symptoms could be associated with the flu. However, I recommend visiting a healthcare professional for an accurate diagnosis.
+        </template>
+    </category>
+
+    <category>
+        <pattern>IS FLU CONTAGIOUS</pattern>
+        <template>
+            Yes, flu is highly contagious and can spread easily from person to person.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW CAN I PREVENT FLU</pattern>
+        <template>
+            The best way to prevent the flu is by getting a flu vaccine each year. Additionally, wash your hands frequently, avoid close contact with sick people, and maintain a healthy lifestyle.
+        </template>
+    </category>
+
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>
+            You're welcome! Take care and stay healthy.
+        </template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>
+            Goodbye! Feel free to reach out if you have more questions.
+        </template>
+    </category>
+
+    <category>
+        <pattern>FLU*</pattern>
+        <template>
+            Could you please provide more details about your symptoms so that I can assist you better?
+        </template>
+    </category>
+</aiml>
